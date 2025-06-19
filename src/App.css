@@ -101,14 +101,14 @@ text-shadow: 1px 1px 5px red ;
 }
  @media(max-width:450px){
 .form-container{
-  width: 90% !important;
+  width: 91% !important;
   min-width: 250px !important;
 }
 .inp input{
-  width:90% !important
+  width:91% !important
 }
 .inp select{
-  width: 90% !important;
+  width: 91% !important;
 }
  }
  @keyframes pop{
