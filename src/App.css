@@ -104,6 +104,12 @@ text-shadow: 1px 1px 5px red ;
   width: 90% !important;
   min-width: 250px !important;
 }
+.inp input{
+  width:90% !important
+}
+.inp select{
+  width: 90% !important;
+}
  }
  @keyframes pop{
   0%{
