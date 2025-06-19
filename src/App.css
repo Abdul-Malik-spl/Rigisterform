@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+/* html{
+  height: 100vh;
+  background-color: red;
+} */
+.app{
+  overflow: hidden;
+  height: 100vh;
+}
+.nav{
+  height: 100px;
+  background-color: rgb(42, 150, 250);
+}
+.heading{
+  animation: type 1s linear infinite;
+  /* color:rgb(42, 150, 250) ; */
+  color: white;
+  transition: 1s;
+  
+}
+.form-container{
+  /* background-color: rgb(4, 78, 189);  */
+  background-color:rgb(42, 150, 250) ;
+ max-width:550px;
+ min-width: 300px;
+ width:30%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+form label{
+  color: white;
+}
+form .inp{
+  padding-left: 20px;
+ 
+}
+.inp input{
+  outline: none;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.inp select{
+    outline: none;
+  border-radius: 10px;
+    cursor: pointer;
+    width: 210px;
+}
+.banner{
+  background-image: url(./image/job2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+.footer{
+  background-color: rgb(42, 150, 250);
+  color: white;
+height: 100%;
+}
+.popParent{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  backdrop-filter: blur(8px);
+}
+.popup{
+  position: absolute;
+  width: 60%;
+top:20%;
+left: 20%;
+background-color: rgb(42, 150, 250) ;
+height: 200px;
+border: 1px solid green;
+animation: pop 1s linear;
+border: 1px solid white;
+}
+.error{
+  background-color: red ;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+@keyframes type{
+  0%{
+text-shadow: 0px 0px 0px ;
+  }
+  100%{
+text-shadow: 1px 1px 5px red ;
+
+  }
+}
+ @media(max-width:450px){
+.form-container{
+  width: 90% !important;
+  min-width: 250px !important;
+}
+ }
+ @keyframes pop{
+  0%{
+scale: 0;
+  }
+  100%{
+scale: 1;
+  }
+ }
