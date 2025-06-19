@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Rigisterform/static/css/main.d1049cc9.css",
+    "main.css": "/Rigisterform/static/css/main.ace10cbc.css",
     "main.js": "/Rigisterform/static/js/main.46b7f4fa.js",
     "static/js/453.062a6afe.chunk.js": "/Rigisterform/static/js/453.062a6afe.chunk.js",
     "static/media/vinlogo.png": "/Rigisterform/static/media/vinlogo.e1dfd56b47137f0a8eb9.png",
     "static/media/job2.jpg": "/Rigisterform/static/media/job2.c5b79758dc3787221bd3.jpg",
     "index.html": "/Rigisterform/index.html",
-    "main.d1049cc9.css.map": "/Rigisterform/static/css/main.d1049cc9.css.map",
+    "main.ace10cbc.css.map": "/Rigisterform/static/css/main.ace10cbc.css.map",
     "main.46b7f4fa.js.map": "/Rigisterform/static/js/main.46b7f4fa.js.map",
     "453.062a6afe.chunk.js.map": "/Rigisterform/static/js/453.062a6afe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1049cc9.css",
+    "static/css/main.ace10cbc.css",
     "static/js/main.46b7f4fa.js"
   ]
 }
